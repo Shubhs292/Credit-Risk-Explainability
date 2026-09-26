@@ -1,0 +1,27 @@
+
+Top 5 Features by SHAP Importance:
+
+
+XGBoost:
+        feature  importance
+last_pymnt_amnt    3.290804
+      loan_amnt    0.561615
+       int_rate    0.472935
+      out_prncp    0.158779
+     revol_util    0.117379
+
+CatBoost:
+        feature  importance
+last_pymnt_amnt    2.488923
+      loan_amnt    0.503448
+       int_rate    0.450116
+      out_prncp    0.144627
+            dti    0.076968
+
+RandomForest:
+        feature  importance
+last_pymnt_amnt    0.182648
+       int_rate    0.062395
+      loan_amnt    0.031105
+      out_prncp    0.017769
+            dti    0.012148
