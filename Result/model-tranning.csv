@@ -1,0 +1,60 @@
+Training models...
+
+XGBoost:
+  Accuracy:     0.8860
+  AUC:          0.9472
+  F1-Score:     0.7256
+  CV AUC:       0.9458 (±0.0018)
+
+  Confusion Matrix: TN=7,353 | FP=503 | FN=637 | TP=1,507
+
+  Classification Report:
+              precision    recall  f1-score   support
+
+        Paid       0.92      0.94      0.93      7856
+     Default       0.75      0.70      0.73      2144
+
+    accuracy                           0.89     10000
+   macro avg       0.84      0.82      0.83     10000
+weighted avg       0.88      0.89      0.88     10000
+
+
+CatBoost:
+  Accuracy:     0.8805
+  AUC:          0.9455
+  F1-Score:     0.7063
+  CV AUC:       0.9429 (±0.0019)
+
+  Confusion Matrix: TN=7,368 | FP=488 | FN=707 | TP=1,437
+
+  Classification Report:
+              precision    recall  f1-score   support
+
+        Paid       0.91      0.94      0.92      7856
+     Default       0.75      0.67      0.71      2144
+
+    accuracy                           0.88     10000
+   macro avg       0.83      0.80      0.82     10000
+weighted avg       0.88      0.88      0.88     10000
+
+
+RandomForest:
+  Accuracy:     0.8729
+  AUC:          0.9390
+  F1-Score:     0.6631
+  CV AUC:       0.9369 (±0.0021)
+
+  Confusion Matrix: TN=7,478 | FP=378 | FN=893 | TP=1,251
+
+  Classification Report:
+              precision    recall  f1-score   support
+
+        Paid       0.89      0.95      0.92      7856
+     Default       0.77      0.58      0.66      2144
+
+    accuracy                           0.87     10000
+   macro avg       0.83      0.77      0.79     10000
+weighted avg       0.87      0.87      0.87     10000
+
+
+All models trained successfully.
