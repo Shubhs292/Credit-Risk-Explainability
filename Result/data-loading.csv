@@ -1,0 +1,14 @@
+Loaded dataset with shape: (2260701, 151)
+Filtered to completed loans: 1,373,154 rows
+
+Loan status distribution:
+loan_status
+Fully Paid                                            1076751
+Charged Off                                            268559
+Late (31-120 days)                                      21467
+Late (16-30 days)                                        4349
+Does not meet the credit policy. Status:Fully Paid       1988
+Default                                                    40
+Name: count, dtype: int64
+
+Final sampled dataset: (50000, 151)
