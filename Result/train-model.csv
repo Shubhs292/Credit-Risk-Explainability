@@ -1,0 +1,12 @@
+
+Training XGBoost WITHOUT 'last_pymnt_amnt'...
+
+
+Fragility Test Results:
+Metric               Original        Without Top Feature  Drop      
+Accuracy             0.8860          0.8048               0.0812    
+AUC                  0.9472          0.7254               0.2218    
+F1-Score             0.7256          0.2446               0.4810    
+
+AUC dropped by 23.42% when removing 'last_pymnt_amnt'
+WARNING: Significant performance drop indicates OVER-RELIANCE on 'last_pymnt_amnt'
