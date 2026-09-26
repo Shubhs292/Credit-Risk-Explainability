@@ -1,0 +1,21 @@
+Dataset Information:
+<class 'pandas.core.frame.DataFrame'>
+Index: 50000 entries, 1649195 to 165117
+Columns: 152 entries, id to loan_status_binary
+dtypes: float64(113), int64(1), object(38)
+memory usage: 58.4+ MB
+None
+
+Missing Values:
+id                           0
+member_id                50000
+loan_amnt                    0
+funded_amnt                  0
+funded_amnt_inv              0
+                         ...  
+settlement_date          48708
+settlement_amount        48708
+settlement_percentage    48708
+settlement_term          48708
+loan_status_binary           0
+Length: 152, dtype: int64
