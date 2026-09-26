@@ -1,0 +1,44 @@
+DATA LEAKAGE DETECTION
+
+🔍 Analyzing features for data leakage...
+
+ LEAKAGE: out_prncp
+ LEAKAGE: last_pymnt_amnt
+
+📊 Analysis Summary:
+  Total features: 14
+  Clean features: 12
+  Leakage features: 2
+
+ Clean features (available at application time):
+  • loan_amnt
+  • int_rate
+  • annual_inc
+  • dti
+  • fico_score
+  • revol_bal
+  • revol_util
+  • tot_cur_bal
+  • total_rev_hi_lim
+  • emp_length
+  • home_ownership_encoded
+  • purpose_encoded
+TRAINING CLEAN MODEL (NO DATA LEAKAGE)
+
+ Clean dataset shape:
+  Training: (40000, 12)
+  Testing: (10000, 12)
+
+🔧 Training XGBoost with clean features only...
+
+✅ Clean Model Performance:
+  Accuracy: 0.7836
+  AUC: 0.6945
+  F1-Score: 0.1378
+  CV AUC: 0.6972 (±0.0054)
+LEAKAGE IMPACT ASSESSMENT
+
+  Metric  With Leakage  Clean Model     Drop    Drop %
+Accuracy      0.886000     0.783600 0.102400 11.557562
+     AUC      0.947210     0.694486 0.252724 26.680902
+F1-Score      0.725566     0.137849 0.587717 81.001224
