@@ -1,0 +1,19 @@
+loan_amnt                 Loan amount requested
+ int_rate                  Interest rate
+ instalment                Monthly payment [NOT FOUND]
+ annual_inc                Annual income
+ dti                       Debt-to-income ratio
+ fico_score                FICO credit score
+ revol_bal                 Revolving balance
+ revol_util                Revolving utilisation %
+ out_prncp                 Outstanding principal
+ last_pymnt_amnt           Last payment amount
+ tot_cur_bal               Total current balance
+ total_rev_hi_lim          Total revolving limit
+ emp_length                Employment length (years)
+ home_ownership            Home ownership status
+ purpose                   Loan purpose
+
+📊 Target Distribution (Overall):
+   0 (Paid   ):   39,280 samples ( 78.6%)
+   1 (Default):   10,720 samples ( 21.4%)
